@@ -7,7 +7,7 @@ def calcular_imposto():
         renda = float(entrada_renda.get())
         despesas = float(entrada_despesas.get())
 
-        # Lógica de cálculo de imposto (ajuste conforme necessário)
+        # Lógica de cálculo de imposto 
         imposto = max(0, renda - despesas) * 0.2
 
         messagebox.showinfo("Resultado", f"O imposto de renda devido é: R$ {imposto:.2f}")
